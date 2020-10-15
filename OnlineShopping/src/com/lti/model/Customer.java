@@ -2,22 +2,31 @@ package com.lti.model;
 
 public class Customer {
 	int custId;
-	String customer;
+	String custName;
+	String custCity;
 
 	public int getCustId() {
 		return custId;
 	}
 
+	public String getCustName() {
+		return custName;
+	}
+
+	public void setCustName(String custName) {
+		this.custName = custName;
+	}
+
+	public String getCustCity() {
+		return custCity;
+	}
+
+	public void setCustCity(String custCity) {
+		this.custCity = custCity;
+	}
+
 	public void setCustId(int custId) {
 		this.custId = custId;
-	}
-
-	public String getCustomer() {
-		return customer;
-	}
-
-	public void setCustomer(String customer) {
-		this.customer = customer;
 	}
 
 }
