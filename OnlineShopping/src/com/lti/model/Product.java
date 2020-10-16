@@ -4,8 +4,12 @@ public class Product {
 	int productId;
 	String productName;
 	String productDescription;
-
-	public int getProductId() {
+	int quantity;
+	
+	public int getQuantity(){
+	         return quantity;
+	}
+        public int getProductId() {
 		return productId;
 	}
 
